@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://pbkandock40.github.io/official-m-aiyouxi-com-cn/sitemap.xml
