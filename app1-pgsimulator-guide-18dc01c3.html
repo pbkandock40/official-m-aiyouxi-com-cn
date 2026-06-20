@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PG模拟器 · 知识库入口页</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #f7f3ed;
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+            color: #2c2b28;
+            line-height: 1.7;
+            padding: 0 1.2rem;
+        }
+        .page-wrap {
+            max-width: 820px;
+            margin: 2.8rem auto 4rem;
+            background: #fcfaf7;
+            padding: 2.6rem 2.8rem;
+            border-radius: 20px;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.04), 0 2px 6px rgba(0, 0, 0, 0.02);
+        }
+        h1 {
+            font-size: 2rem;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+            margin-bottom: 0.25rem;
+            color: #2f2b24;
+            border-left: 4px solid #b7a58b;
+            padding-left: 1rem;
+        }
+        .subhead {
+            font-size: 1rem;
+            color: #6b645b;
+            margin-bottom: 2rem;
+            padding-left: 1.4rem;
+            font-style: normal;
+            border-bottom: 1px solid #e6ddd2;
+            padding-bottom: 1rem;
+        }
+        h2 {
+            font-size: 1.3rem;
+            font-weight: 500;
+            margin: 2rem 0 0.8rem 0;
+            color: #3d3830;
+            border-bottom: 1px dashed #ddd5c9;
+            padding-bottom: 0.3rem;
+        }
+        h3 {
+            font-size: 1.05rem;
+            font-weight: 500;
+            margin: 1.2rem 0 0.4rem 0;
+            color: #4d473e;
+        }
+        p {
+            margin: 0.6rem 0 1rem 0;
+            font-size: 1rem;
+            color: #3b3731;
+        }
+        .intro-text {
+            font-size: 1.02rem;
+            background: #f4f0ea;
+            padding: 1.2rem 1.6rem;
+            border-radius: 12px;
+            margin: 1.4rem 0;
+        }
+        blockquote {
+            margin: 1.6rem 0;
+            padding: 0.8rem 1.4rem;
+            border-left: 4px solid #c7b9a8;
+            background: #f3efe9;
+            color: #4a443c;
+            font-style: normal;
+            border-radius: 0 10px 10px 0;
+        }
+        blockquote p {
+            margin: 0.2rem 0;
+        }
+        .notice-box {
+            background: #ede8df;
+            border-radius: 14px;
+            padding: 1.2rem 1.6rem;
+            margin: 1.6rem 0;
+            border: 1px solid #dbd2c5;
+        }
+        .notice-box strong {
+            color: #4d3e2c;
+            display: inline-block;
+            margin-bottom: 0.1rem;
+        }
+        .card-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.2rem;
+            margin: 1.4rem 0 0.8rem;
+        }
+        .card-item {
+            flex: 1 1 200px;
+            background: #f6f2eb;
+            border-radius: 14px;
+            padding: 1.1rem 1.3rem 1rem;
+            border: 1px solid #e2d9ce;
+            transition: all 0.15s ease;
+        }
+        .card-item:hover {
+            background: #f1ece4;
+            border-color: #cdbfaf;
+        }
+        .card-item h4 {
+            font-size: 1rem;
+            font-weight: 500;
+            margin-bottom: 0.4rem;
+            color: #3f3a32;
+        }
+        .card-item p {
+            font-size: 0.92rem;
+            margin: 0.2rem 0 0;
+            color: #5f5850;
+        }
+        .faq-item {
+            margin: 0.8rem 0 0.2rem;
+        }
+        .faq-item strong {
+            color: #4f473d;
+            font-weight: 500;
+            display: block;
+            margin-bottom: 0.1rem;
+        }
+        .faq-item p {
+            margin: 0.1rem 0 0.6rem 0.8rem;
+            font-size: 0.95rem;
+        }
+        .link-inline {
+            color: #6f5c44;
+            text-decoration: none;
+            border-bottom: 1px solid #b7aa9a;
+            transition: border 0.1s;
+        }
+        .link-inline:hover {
+            border-bottom: 2px solid #7d6b54;
+            color: #4f4132;
+        }
+        .back-note {
+            margin-top: 2.6rem;
+            padding: 1.2rem 0 0.2rem;
+            border-top: 1px solid #e1d8cc;
+            color: #6c655b;
+            font-size: 0.9rem;
+        }
+        @media (max-width: 640px) {
+            .page-wrap {
+                padding: 1.6rem 1.2rem;
+                margin: 1.2rem 0;
+                border-radius: 14px;
+            }
+            h1 {
+                font-size: 1.6rem;
+                padding-left: 0.7rem;
+            }
+            .subhead {
+                font-size: 0.9rem;
+                padding-left: 0.9rem;
+            }
+            .card-item {
+                flex: 1 1 100%;
+            }
+            blockquote {
+                margin: 1rem 0;
+                padding: 0.6rem 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="page-wrap">
+    <h1>PG模拟器 · 知识库入口</h1>
+    <div class="subhead">再次访问、收藏与持续关注的实用页面</div>
+
+    <p>这个页面并非<a href="https://app1-pgsimulator.com" class="link-inline">PG模拟器</a>的首页克隆，而是一个轻量的知识库入口。如果你已经知道它的基本功能，这里整理的说明、提示和关联信息或许能帮你更快定位内容，也适合收藏起来作为下次访问的出发点。</p>
+
+    <div class="intro-text">
+        <strong>关于 PG模拟器</strong> —— 它是面向特定流程和交互模拟的工具类页面，不依赖复杂环境，打开即用。适合需要反复查阅或执行某些步骤的人。此页整理了常见用法、情境提示和简短的FAQ摘要，方便你随时回看。
+    </div>
+
+    <h2>📂 信息目录</h2>
+    <p>以下四个区域覆盖了大部分关注点。你可以根据当前需要跳转阅读，或直接交由书签保存。</p>
+
+    <div class="card-grid">
+        <div class="card-item">
+            <h4>📖 说明区</h4>
+            <p>基础用法、界面逻辑与适用范围。</p>
+        </div>
+        <div class="card-item">
+            <h4>🧩 特点与场景</h4>
+            <p>核心特点、典型使用场景举例。</p>
+        </div>
+        <div class="card-item">
+            <h4>💡 提示区</h4>
+            <p>操作注意、收藏技巧与再次访问方式。</p>
+        </div>
+        <div class="card-item">
+            <h4>🔗 相关信息</h4>
+            <p>相关资源、FAQ摘要与扩展阅读方向。</p>
+        </div>
+    </div>
+
+    <h2>📖 说明区</h2>
+    <p><a href="https://app1-pgsimulator.com" class="link-inline">PG模拟器</a>的界面围绕一组预设参数和交互控件展开，主要用于快速模拟某些过程或生成可观察的结果。它不要求下载或注册，打开浏览器即可操作。每次访问后，页面状态通常会在刷新后重置，因此适合作为临时工作台或教学辅助。</p>
+    <p>如果你需要记录某次操作的配置，建议同时打开记事工具，或者使用浏览器收藏夹配合手动记录。这个介绍页本身并不记录状态，仅作为入口和参考。</p>
+
+    <h2>🧩 特点与场景</h2>
+    <div class="card-grid" style="margin-top:0;">
+        <div class="card-item">
+            <h4>轻量交互</h4>
+            <p>无后台、无注册，页面自身完成模拟响应。</p>
+        </div>
+        <div class="card-item">
+            <h4>重复可用</h4>
+            <p>多次打开结果一致，适合对比不同参数。</p>
+        </div>
+        <div class="card-item">
+            <h4>场景示例</h4>
+            <p>教学演示、快速验证、步骤拆解参考。</p>
+        </div>
+    </div>
+    <p>常见的使用时机包括：想要快速理解某个流程的中间效果、需要向他人展示模拟结果，或者将<a href="https://app1-pgsimulator.com" class="link-inline">PG模拟器</a>作为辅助工具嵌入自己的学习笔记中。注意，它不替代专业软件，而是提供一种低门槛的观察方式。</p>
+
+    <blockquote>
+        <p>「每次打开都是同样的起点，反而让人更专注在调整和观察上。收藏这个页面之后，我几乎不再去翻旧截图了。」</p>
+        <p style="font-size:0.9rem; margin-top:0.3rem;">—— 来自一位反复使用的用户描述</p>
+    </blockquote>
+
+    <h2>💡 提示区</h2>
+    <div class="notice-box">
+        <strong>🔖 收藏与再次访问</strong>
+        <p>建议将当前页面（此介绍页）加入浏览器书签，或者单独记录 <a href="https://app1-pgsimulator.com" class="link-inline">PG模拟器</a> 的网址。由于模拟器页面本身没有导航菜单，收藏后可以避免每次手动输入。如果你经常在移动设备上使用，也可以添加到主屏幕。</p>
+        <p style="margin-top:0.6rem;"><strong>📌 持续关注</strong> 如果将来页面有更新或调整，这个知识库入口页也可能同步补充说明。偶尔回来看一眼，或许会发现新的提示内容。</p>
+    </div>
+
+    <h2>🔗 相关信息与FAQ摘要</h2>
+    <div class="faq-item">
+        <strong>问：PG模拟器需要安装插件吗？</strong>
+        <p>不需要。它完全基于浏览器前端运行，不依赖外部插件或服务端。</p>
+    </div>
+    <div class="faq-item">
+        <strong>问：可以保存我的模拟结果吗？</strong>
+        <p>页面本身没有保存功能。你可以通过截图、复制输出文本或手动记录参数来保存结果。</p>
+    </div>
+    <div class="faq-item">
+        <strong>问：这个介绍页和模拟器是什么关系？</strong>
+        <p>此页是独立的说明与入口页，帮助你了解模拟器的背景、用法和注意事项，并非模拟器的一部分。点击文中链接即可前往 <a href="https://app1-pgsimulator.com" class="link-inline">PG模拟器</a> 主页面。</p>
+    </div>
+    <div class="faq-item">
+        <strong>问：页面的内容会更新吗？</strong>
+        <p>本页会随着模拟器功能或常见问题的变化做适度调整，但不会频繁改动。建议半年左右回看一次。</p>
+    </div>
+
+    <div class="back-note">
+        <p>—— 本知识库入口页最后整理于近期。如果你是通过搜索或他人推荐来到这里，不妨把<a href="https://app1-pgsimulator.com" class="link-inline">PG模拟器</a>加入书签，下次再来时会更方便。</p>
+        <p style="margin-top:0.6rem; font-size:0.88rem; color:#7d756a;">页面内容仅供了解和参考，不构成任何操作保证。实际使用时请以模拟器页面为准。</p>
+    </div>
+</div>
+</body>
+</html>
